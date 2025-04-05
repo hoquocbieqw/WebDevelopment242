@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Thọ Biên - Hạt giống và phân bón cây trồng</title>
+    <meta name="description" content="Liên hệ với Thọ Biên để được tư vấn về hạt giống và phân bón chất lượng cao">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-contact">
+                    <div>
+                        <a href="tel:0987654321"><i class="fas fa-phone"></i> Hotline: 0987 654 321</a>
+                        <a href="mailto:info@thobien.vn"><i class="fas fa-envelope"></i> Email: info@thobien.vn</a>
+                    </div>
+                    <div>
+                        <a href="contact.html"><i class="fas fa-map-marker-alt"></i> Hệ thống cửa hàng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Thọ Biên Logo">
+                        <h1>Thọ Biên</h1>
+                    </a>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-actions">
+                    <a href="cart.html" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Giỏ hàng</span>
+                        <div class="count" id="cart-count">0</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="products.html?category=seeds">Hạt giống</a></li>
+                    <li><a href="products.html?category=fertilizers">Phân bón</a></li>
+                    <li class="active"><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+                <li class="breadcrumb-item current">Liên hệ</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Liên hệ với chúng tôi</h2>
+            </div>
+            <div class="row">
+                <div class="contact-info col">
+                    <h3>Thông tin liên hệ</h3>
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Địa chỉ: 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        <span>Điện thoại: 0987 654 321</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: info@thobien.vn</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-clock"></i>
+                        <span>Giờ làm việc: 8:00 - 17:30 (Thứ 2 - Thứ 7)</span>
+                    </div>
+                    
+                    <div class="map-container" style="margin-top: 30px;">
+                        <h3>Bản đồ cửa hàng</h3>
+                        <!-- Placeholder for map - In a real project, you'd add Google Maps here -->
+                        <div class="map" style="width: 100%; height: 300px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                            <p>Bản đồ Thọ Biên - 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form col">
+                    <h3>Gửi yêu cầu tư vấn</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Họ và tên *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Chủ đề</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nội dung *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Gửi yêu cầu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Locations -->
+    <section class="store-locations" style="padding: 50px 0; background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hệ thống cửa hàng</h2>
+            </div>
+            <div class="row" style="display: flex; flex-wrap: wrap; margin: 0 -15px;">
+                <div class="store-item" style="flex: 0 0 calc(50% - 30px); margin: 15px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <h3 style="font-size: 18px; margin-bottom: 10px; color: #4CAF50;">Cửa hàng Quận 1</h3>
+                    <p><i class="fas fa-map-marker-alt" style="color: #4CAF50; margin-right: 8px;"></i> 123 Đường ABC, Quận 1, TP. Hồ Chí Minh</p>
+                    <p><i class="fas fa-phone" style="color: #4CAF50; margin-right: 8px;"></i> 0987 654 321</p>
+                    <p><i class="fas fa-clock" style="color: #4CAF50; margin-right: 8px;"></i> 8:00 - 17:30 (Thứ 2 - Thứ 7)</p>
+                </div>
+                <div class="store-item" style="flex: 0 0 calc(50% - 30px); margin: 15px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <h3 style="font-size: 18px; margin-bottom: 10px; color: #4CAF50;">Cửa hàng Quận 7</h3>
+                    <p><i class="fas fa-map-marker-alt" style="color: #4CAF50; margin-right: 8px;"></i> 456 Đường DEF, Quận 7, TP. Hồ Chí Minh</p>
+                    <p><i class="fas fa-phone" style="color: #4CAF50; margin-right: 8px;"></i> 0987 654 322</p>
+                    <p><i class="fas fa-clock" style="color: #4CAF50; margin-right: 8px;"></i> 8:00 - 17:30 (Thứ 2 - Thứ 7)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-widget">
+                    <h3>Về Thọ Biên</h3>
+                    <p>Thọ Biên là đơn vị chuyên cung cấp hạt giống và phân bón chất lượng cao, mang đến những sản phẩm tốt nhất cho người nông dân Việt Nam.</p>
+                </div>
+                <div class="footer-widget">
+                    <h3>Danh mục sản phẩm</h3>
+                    <ul class="footer-links">
+                        <li><a href="products.html?category=seeds">Hạt giống</a></li>
+                        <li><a href="products.html?category=fertilizers">Phân bón</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Thông tin liên hệ</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận XYZ, TP. HCM</li>
+                        <li><i class="fas fa-phone"></i> 0987 654 321</li>
+                        <li><i class="fas fa-envelope"></i> info@thobien.vn</li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Thọ Biên - Hạt giống và phân bón cây trồng. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Update cart count on page load
+        function updateCartCount() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
+            document.getElementById('cart-count').textContent = totalItems;
+        }
+        updateCartCount();
+
+        // Handle form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real project, you would send this data to your server
+            console.log('Form submitted:', { name, email, phone, subject, message });
+            
+            // Show success message
+            alert('Cảm ơn bạn đã gửi yêu cầu. Chúng tôi sẽ liên hệ với bạn sớm nhất có thể!');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>

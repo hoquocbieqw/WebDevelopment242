@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm - Thọ Biên</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Thọ Biên">
+                        <span>Thọ Biên</span>
+                    </a>
+                </div>
+                
+                <div class="search-box">
+                    <form action="products.html" method="get">
+                        <input type="text" name="search" placeholder="Tìm kiếm sản phẩm...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                
+                <div class="header-actions">
+                    <div class="user-actions">
+                        <a href="#" class="login-btn"><i class="fas fa-user"></i> Đăng nhập</a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="products.html?category=seeds">Hạt giống</a></li>
+                    <li><a href="products.html?category=fertilizers">Phân bón</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-header">
+                <h1 id="category-title">Tất cả sản phẩm</h1>
+                <div class="products-filter">
+                    <select id="sort-options">
+                        <option value="popular">Phổ biến nhất</option>
+                        <option value="newest">Mới nhất</option>
+                        <option value="price-asc">Giá: Thấp đến cao</option>
+                        <option value="price-desc">Giá: Cao đến thấp</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="product-container">
+                <aside class="product-sidebar">
+                    <div class="filter-section">
+                        <h3>Danh mục</h3>
+                        <ul class="category-filter">
+                            <li>
+                                <a href="products.html">Tất cả sản phẩm</a>
+                            </li>
+                            <li>
+                                <a href="products.html?category=seeds">Hạt giống</a>
+                            </li>
+                            <li>
+                                <a href="products.html?category=fertilizers">Phân bón</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h3>Lọc theo giá</h3>
+                        <div class="price-range">
+                            <input type="range" min="0" max="1000000" step="10000" id="price-filter">
+                            <div class="price-values">
+                                <span id="min-price">0đ</span>
+                                <span id="max-price">1.000.000đ</span>
+                            </div>
+                            <button id="apply-price-filter" class="btn btn-sm">Áp dụng</button>
+                        </div>
+                    </div>
+                </aside>
+                
+                <div class="product-list">
+                    <div class="product-grid" id="products-grid">
+                        <!-- Products will be loaded dynamically here -->
+                    </div>
+                    
+                    <div class="pagination">
+                        <button class="pagination-btn" disabled>&laquo;</button>
+                        <button class="pagination-btn active">1</button>
+                        <button class="pagination-btn">2</button>
+                        <button class="pagination-btn">&raquo;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Thọ Biên</h3>
+                    <p>Cung cấp sản phẩm nông nghiệp chất lượng cao</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Danh mục sản phẩm</h3>
+                    <ul>
+                        <li><a href="products.html?category=seeds">Hạt giống</a></li>
+                        <li><a href="products.html?category=fertilizers">Phân bón</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Thông tin liên hệ</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Đường Nông Nghiệp, Quận X, TP. HCM</li>
+                        <li><i class="fas fa-phone"></i> 0987 654 321</li>
+                        <li><i class="fas fa-envelope"></i> contact@thobien.vn</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Thọ Biên - Hạt giống và Phân bón cây trồng. Đã đăng ký bản quyền.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+[
+    {
+      "id": "s1",
+      "name": "Hạt giống cà chua beef",
+      "price": 25000,
+      "sale_price": 20000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-cachua.jpg",
+      "description": "Hạt giống cà chua beef chất lượng cao, cho quả to, thịt dày, ít hạt. Thích hợp trồng quanh năm, đặc biệt là vụ đông xuân.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "20 hạt/gói",
+        "germination": "85-90%",
+        "growing_time": "65-70 ngày"
+      },
+      "stock": 100,
+      "tags": ["cà chua", "hạt giống rau", "dễ trồng"]
+    },
+    {
+      "id": "s2",
+      "name": "Hạt giống rau muống Việt Nam",
+      "price": 15000,
+      "sale_price": 12000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-raumuong.jpg",
+      "description": "Hạt giống rau muống Việt Nam cho cây khỏe, lá xanh đậm, phát triển nhanh. Phù hợp với khí hậu nhiệt đới.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "50 hạt/gói",
+        "germination": "90-95%",
+        "growing_time": "25-30 ngày"
+      },
+      "stock": 150,
+      "tags": ["rau muống", "hạt giống rau", "dễ trồng"]
+    },
+    {
+      "id": "s3",
+      "name": "Hạt giống xà lách lô lô xanh",
+      "price": 18000,
+      "sale_price": 15000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-xalach.jpg",
+      "description": "Hạt giống xà lách lô lô xanh chất lượng cao, dễ trồng, nhanh thu hoạch. Thích hợp trồng chậu, thùng xốp.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "300 hạt/gói",
+        "germination": "85-90%",
+        "growing_time": "40-45 ngày"
+      },
+      "stock": 120,
+      "tags": ["xà lách", "rau ăn lá", "dễ trồng"]
+    },
+    {
+      "id": "s4",
+      "name": "Hạt giống dưa leo F1",
+      "price": 30000,
+      "sale_price": 28000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-dualeo.jpg",
+      "description": "Hạt giống dưa leo F1 cho năng suất cao, quả dài 15-20cm, vỏ xanh đậm, ít hạt, giòn ngọt.",
+      "specifications": {
+        "origin": "Đài Loan",
+        "quantity": "20 hạt/gói",
+        "germination": "90-95%",
+        "growing_time": "40-45 ngày"
+      },
+      "stock": 85,
+      "tags": ["dưa leo", "rau ăn quả", "F1"]
+    },
+    {
+      "id": "s5",
+      "name": "Hạt giống ớt hiểm",
+      "price": 20000,
+      "sale_price": 18000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-othiem.jpg",
+      "description": "Hạt giống ớt hiểm cay nồng, quả nhỏ, đỏ tươi. Thích hợp trồng trong chậu, vườn sau nhà.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "30 hạt/gói",
+        "germination": "85-90%",
+        "growing_time": "70-80 ngày"
+      },
+      "stock": 110,
+      "tags": ["ớt", "cây gia vị", "cay"]
+    },
+    {
+      "id": "s6",
+      "name": "Hạt giống bí đỏ hạt đậu",
+      "price": 35000,
+      "sale_price": 30000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-bido.jpg",
+      "description": "Hạt giống bí đỏ hạt đậu cho quả to, thịt vàng, ngọt, bở. Năng suất cao, kháng bệnh tốt.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "15 hạt/gói",
+        "germination": "85-90%",
+        "growing_time": "90-100 ngày"
+      },
+      "stock": 75,
+      "tags": ["bí đỏ", "rau ăn quả", "dễ trồng"]
+    },
+    {
+      "id": "s7",
+      "name": "Hạt giống hoa hướng dương",
+      "price": 22000,
+      "sale_price": 20000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-huongduong.jpg",
+      "description": "Hạt giống hoa hướng dương cho hoa to, vàng rực. Phù hợp trồng làm cảnh hoặc lấy hạt.",
+      "specifications": {
+        "origin": "Mỹ",
+        "quantity": "20 hạt/gói",
+        "germination": "90-95%",
+        "growing_time": "70-80 ngày"
+      },
+      "stock": 90,
+      "tags": ["hoa hướng dương", "cây cảnh", "dễ trồng"]
+    },
+    {
+      "id": "s8",
+      "name": "Hạt giống cải xanh",
+      "price": 12000,
+      "sale_price": 10000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-caixanh.jpg",
+      "description": "Hạt giống cải xanh chất lượng cao, dễ trồng, nhanh thu hoạch. Thích hợp trồng quanh năm.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "500 hạt/gói",
+        "germination": "90-95%",
+        "growing_time": "30-35 ngày"
+      },
+      "stock": 200,
+      "tags": ["cải xanh", "rau ăn lá", "dễ trồng"]
+    },
+    {
+      "id": "s9",
+      "name": "Hạt giống đậu đũa",
+      "price": 18000,
+      "sale_price": 15000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-daudua.jpg",
+      "description": "Hạt giống đậu đũa cho quả dài, xanh mướt, không xơ. Thích hợp trồng theo giàn.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "30 hạt/gói",
+        "germination": "90-95%",
+        "growing_time": "45-50 ngày"
+      },
+      "stock": 110,
+      "tags": ["đậu đũa", "rau ăn quả", "dễ trồng"]
+    },
+    {
+      "id": "s10",
+      "name": "Hạt giống rau mùi",
+      "price": 15000,
+      "sale_price": 12000,
+      "category": "hat-giong",
+      "image": "assets/images/products/hatgiong-raumui.jpg",
+      "description": "Hạt giống rau mùi (ngò) thơm ngon, dễ trồng, phát triển nhanh. Thích hợp trồng quanh năm.",
+      "specifications": {
+        "origin": "Việt Nam",
+        "quantity": "300 hạt/gói",
+        "germination": "85-90%",
+        "growing_time": "30-35 ngày"
+      },
+      "stock": 150,
+      "tags": ["rau mùi", "ngò", "cây gia vị"]
+    }
+  ]

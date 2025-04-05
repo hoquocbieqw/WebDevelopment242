@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thọ Biên - Hạt giống và phân bón cây trồng</title>
+    <meta name="description" content="Chuyên cung cấp hạt giống và phân bón chất lượng cao cho nông nghiệp">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-contact">
+                    <div>
+                        <a href="tel:0987654321"><i class="fas fa-phone"></i> Hotline: 0987 654 321</a>
+                        <a href="mailto:info@thobien.vn"><i class="fas fa-envelope"></i> Email: info@thobien.vn</a>
+                    </div>
+                    <div>
+                        <a href="contact.html"><i class="fas fa-map-marker-alt"></i> Hệ thống cửa hàng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Thọ Biên Logo">
+                        <h1>Thọ Biên</h1>
+                    </a>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-actions">
+                    <a href="cart.html" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Giỏ hàng</span>
+                        <div class="count" id="cart-count">0</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container">
+                <ul>
+                    <li class="active"><a href="index.html">Trang chủ</a></li>
+                    <li><a href="products.html?category=seeds">Hạt giống</a></li>
+                    <li><a href="products.html?category=fertilizers">Phân bón</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="assets/images/banner.jpg" alt="Banner">
+        <div class="hero-content">
+            <h2>Nông nghiệp sạch - Tương lai xanh</h2>
+            <p>Thọ Biên cung cấp các sản phẩm hạt giống và phân bón chất lượng cao, giúp bạn có một vụ mùa bội thu.</p>
+            <a href="products.html" class="btn">Khám phá ngay</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Danh mục sản phẩm</h2>
+            </div>
+            <div class="category-items">
+                <a href="products.html?category=seeds" class="category-item">
+                    <img src="assets/images/icons/seeds-icon.png" alt="Hạt giống">
+                    <h3>Hạt giống</h3>
+                    <p>Đa dạng chủng loại</p>
+                </a>
+                <a href="products.html?category=fertilizers" class="category-item">
+                    <img src="assets/images/icons/fertilizer-icon.png" alt="Phân bón">
+                    <h3>Phân bón</h3>
+                    <p>Chất lượng cao</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sản phẩm nổi bật</h2>
+            </div>
+            <div class="product-grid" id="featured-products">
+                <!-- Products will be loaded dynamically from JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tại sao chọn Thọ Biên?</h2>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Sản phẩm chất lượng</h3>
+                    <p>Tất cả sản phẩm đều được tuyển chọn kỹ lưỡng, đảm bảo tỷ lệ nảy mầm cao.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Giao hàng nhanh chóng</h3>
+                    <p>Chúng tôi cam kết giao hàng trong vòng 24h đối với các khu vực nội thành.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>Hỗ trợ kỹ thuật</h3>
+                    <p>Đội ngũ kỹ thuật viên sẵn sàng tư vấn và hỗ trợ bạn trong quá trình canh tác.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-medal"></i>
+                    <h3>Cam kết chính hãng</h3>
+                    <p>100% sản phẩm chính hãng, xuất xứ rõ ràng, hoàn tiền nếu phát hiện hàng giả.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-widget">
+                    <h3>Về Thọ Biên</h3>
+                    <p>Thọ Biên là đơn vị chuyên cung cấp hạt giống và phân bón chất lượng cao, mang đến những sản phẩm tốt nhất cho người nông dân Việt Nam.</p>
+                </div>
+                <div class="footer-widget">
+                    <h3>Danh mục sản phẩm</h3>
+                    <ul class="footer-links">
+                        <li><a href="products.html?category=seeds">Hạt giống</a></li>
+                        <li><a href="products.html?category=fertilizers">Phân bón</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Thông tin liên hệ</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận XYZ, TP. HCM</li>
+                        <li><i class="fas fa-phone"></i> 0987 654 321</li>
+                        <li><i class="fas fa-envelope"></i> info@thobien.vn</li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Thọ Biên - Hạt giống và phân bón cây trồng. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Load featured products
+        document.addEventListener('DOMContentLoaded', function() {
+            // Combine some products from both categories for featured section
+            Promise.all([
+                fetch('data/seeds.json').then(response => response.json()),
+                fetch('data/fertilizers.json').then(response => response.json())
+            ])
+            .then(([seedsData, fertilizersData]) => {
+                const featuredProducts = [];
+                // Get 3 products from each category
+                featuredProducts.push(...seedsData.slice(0, 4));
+                featuredProducts.push(...fertilizersData.slice(0, 4));
+                
+                const productGrid = document.getElementById('featured-products');
+                featuredProducts.forEach(product => {
+                    const productCard = document.createElement('div');
+                    productCard.className = 'product-card';
+                    productCard.innerHTML = `
+                        <div class="product-img">
+                            <img src="${product.image}" alt="${product.name}">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">${product.name}</h3>
+                            <div class="product-price">${product.price.toLocaleString()} đ</div>
+                            <div class="product-actions">
+                                <a href="product-detail.html?id=${product.id}&category=${product.category}" class="btn">Chi tiết</a>
+                                <button class="btn add-to-cart" data-id="${product.id}" data-category="${product.category}">
+                                    <i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                    productGrid.appendChild(productCard);
+                });
+
+                // Add event listeners for "Add to Cart" buttons
+                document.querySelectorAll('.add-to-cart').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const productId = this.getAttribute('data-id');
+                        const category = this.getAttribute('data-category');
+                        addToCart(productId, category);
+                    });
+                });
+            })
+            .catch(error => console.error('Error loading products:', error));
+        });
+
+        // Function to add products to cart (to be implemented in cart.js)
+        function addToCart(productId, category, quantity = 1) {
+            // Load the existing cart from localStorage
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            
+            // Check if the product is already in the cart
+            const existingProductIndex = cart.findIndex(item => item.id === productId && item.category === category);
+            
+            if (existingProductIndex >= 0) {
+                // If product exists, increase quantity
+                cart[existingProductIndex].quantity += quantity;
+            } else {
+                // Add new product to cart
+                cart.push({
+                    id: productId,
+                    category: category,
+                    quantity: quantity
+                });
+            }
+            
+            // Save updated cart to localStorage
+            localStorage.setItem('cart', JSON.stringify(cart));
+            
+            // Update cart count display
+            updateCartCount();
+            
+            // Show a message
+            alert('Sản phẩm đã được thêm vào giỏ hàng!');
+        }
+
+        // Function to update cart count
+        function updateCartCount() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
+            document.getElementById('cart-count').textContent = totalItems;
+        }
+
+        // Update cart count on page load
+        updateCart
+    </script>
+</body>
+</html>

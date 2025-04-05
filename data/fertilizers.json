@@ -1,0 +1,172 @@
+[
+    {
+      "id": "f1",
+      "name": "Phân bón NPK 20-10-10",
+      "price": 95000,
+      "sale_price": 85000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-npk.jpg",
+      "description": "Phân bón NPK 20-10-10 cân bằng, giúp cây phát triển toàn diện. Thích hợp cho giai đoạn sinh trưởng của cây.",
+      "specifications": {
+        "weight": "1kg/gói",
+        "composition": "N:20%, P:10%, K:10%",
+        "usage": "3-5g/cây con, 10-15g/cây trưởng thành",
+        "suitable_plants": "Rau xanh, cây ăn quả"
+      },
+      "stock": 150,
+      "tags": ["NPK", "phân bón tổng hợp", "cây trồng"]
+    },
+    {
+      "id": "f2",
+      "name": "Phân bón lá hữu cơ",
+      "price": 120000,
+      "sale_price": 110000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-la.jpg",
+      "description": "Phân bón lá hữu cơ giúp cây xanh tốt, tăng sức đề kháng. An toàn, không độc hại.",
+      "specifications": {
+        "weight": "500ml/chai",
+        "composition": "Chiết xuất thực vật, axit humic, axit fulvic",
+        "usage": "Pha 10ml/10L nước, phun 7-10 ngày/lần",
+        "suitable_plants": "Mọi loại cây trồng"
+      },
+      "stock": 100,
+      "tags": ["phân bón lá", "hữu cơ", "an toàn"]
+    },
+    {
+      "id": "f3",
+      "name": "Phân bón vi sinh Trichoderma",
+      "price": 85000,
+      "sale_price": 75000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-trichoderma.jpg",
+      "description": "Phân bón vi sinh Trichoderma giúp cải tạo đất, phòng trừ nấm bệnh, kích thích rễ phát triển.",
+      "specifications": {
+        "weight": "500g/gói",
+        "composition": "Nấm Trichoderma, chất mang",
+        "usage": "5-10g/kg đất",
+        "suitable_plants": "Mọi loại cây trồng"
+      },
+      "stock": 120,
+      "tags": ["vi sinh", "phòng bệnh", "cải tạo đất"]
+    },
+    {
+      "id": "f4",
+      "name": "Phân bón kích rễ Root Pro",
+      "price": 110000,
+      "sale_price": 100000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-kichre.jpg",
+      "description": "Phân bón kích rễ Root Pro giúp kích thích hệ rễ phát triển mạnh, tăng khả năng hấp thu dinh dưỡng.",
+      "specifications": {
+        "weight": "250ml/chai",
+        "composition": "NAA, IBA, kẽm, mangan",
+        "usage": "Pha 5ml/10L nước, tưới gốc",
+        "suitable_plants": "Cây con, cây mới trồng"
+      },
+      "stock": 80,
+      "tags": ["kích rễ", "sinh trưởng", "cây con"]
+    },
+    {
+      "id": "f5",
+      "name": "Phân bón ra hoa đậu quả",
+      "price": 105000,
+      "sale_price": 95000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-hoa.jpg",
+      "description": "Phân bón ra hoa đậu quả giúp cây ra nhiều hoa, đậu quả tốt, tăng năng suất.",
+      "specifications": {
+        "weight": "1kg/gói",
+        "composition": "N:10%, P:30%, K:20%, trung vi lượng",
+        "usage": "10-15g/cây, 2 tuần/lần",
+        "suitable_plants": "Cây ăn quả, cây hoa"
+      },
+      "stock": 110,
+      "tags": ["ra hoa", "đậu quả", "năng suất"]
+    },
+    {
+      "id": "f6",
+      "name": "Phân bón nấm rễ cộng sinh Mycorrhiza",
+      "price": 150000,
+      "sale_price": 135000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-nam.jpg",
+      "description": "Phân bón nấm rễ cộng sinh Mycorrhiza giúp tăng khả năng hấp thu nước và dinh dưỡng, tăng sức đề kháng cho cây.",
+      "specifications": {
+        "weight": "500g/gói",
+        "composition": "Bào tử nấm Mycorrhiza, chất mang",
+        "usage": "5-10g/kg đất, trộn trước khi trồng",
+        "suitable_plants": "Hầu hết các loại cây trồng"
+      },
+      "stock": 70,
+      "tags": ["nấm rễ", "cộng sinh", "sinh học"]
+    },
+    {
+      "id": "f7",
+      "name": "Phân bón chậm tan NPK",
+      "price": 180000,
+      "sale_price": 165000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-chamtan.jpg",
+      "description": "Phân bón chậm tan NPK giúp cung cấp dinh dưỡng đều đặn cho cây trong thời gian dài, tiết kiệm công chăm sóc.",
+      "specifications": {
+        "weight": "1kg/gói",
+        "composition": "N:15%, P:15%, K:15%, phụ gia bọc",
+        "usage": "10-20g/cây, 3 tháng/lần",
+        "suitable_plants": "Cây cảnh, cây lâu năm"
+      },
+      "stock": 90,
+      "tags": ["chậm tan", "tiết kiệm", "lâu dài"]
+    },
+    {
+      "id": "f8",
+      "name": "Phân bón hữu cơ vi sinh",
+      "price": 75000,
+      "sale_price": 65000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-huuco.jpg",
+      "description": "Phân bón hữu cơ vi sinh giúp cải tạo đất, tăng độ tơi xốp, bổ sung vi sinh vật có ích.",
+      "specifications": {
+        "weight": "2kg/gói",
+        "composition": "Phân hữu cơ, vi sinh vật có ích, nấm, trùn quế",
+        "usage": "1-2kg/m² đất",
+        "suitable_plants": "Mọi loại cây trồng"
+      },
+      "stock": 200,
+      "tags": ["hữu cơ", "vi sinh", "cải tạo đất"]
+    },
+    {
+      "id": "f9",
+      "name": "Phân bón kali cây ăn quả",
+      "price": 95000,
+      "sale_price": 85000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-kali.jpg",
+      "description": "Phân bón kali cây ăn quả giúp quả to, ngọt, cứng, màu sắc đẹp. Tăng chất lượng và khả năng bảo quản.",
+      "specifications": {
+        "weight": "1kg/gói",
+        "composition": "K2O: 60%, S: 18%",
+        "usage": "10-15g/cây, 2 tuần/lần trong giai đoạn ra quả",
+        "suitable_plants": "Cây ăn quả các loại"
+      },
+      "stock": 110,
+      "tags": ["kali", "quả ngọt", "chất lượng cao"]
+    },
+    {
+      "id": "f10",
+      "name": "Phân bón canxi magnesium",
+      "price": 85000,
+      "sale_price": 75000,
+      "category": "phan-bon",
+      "image": "assets/images/products/phanbon-canxi.jpg",
+      "description": "Phân bón canxi magnesium giúp cây khỏe mạnh, phòng chống thối quả, rụng lá, tăng chất lượng sản phẩm.",
+      "specifications": {
+        "weight": "1kg/gói",
+        "composition": "CaO: 40%, MgO: 15%",
+        "usage": "10g/cây, 2-3 tuần/lần",
+        "suitable_plants": "Cây ăn quả, rau ăn lá"
+      },
+      "stock": 120,
+      "tags": ["canxi", "magnesium", "chống thối quả"]
+    }
+  ]
